@@ -1,0 +1,19 @@
+{
+  "name": "qubinator-cli",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Jean Lourenço",
+  "license": "MIT",
+  "dependencies": {
+    "meow": "^3.7.0"
+  },
+  "devDependencies": {},
+  "description": "Command-line version of the C# library Qubinator",
+  "keywords": [
+    "string-manipulation"
+  ]
+}
