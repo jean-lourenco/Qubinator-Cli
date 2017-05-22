@@ -1,5 +1,5 @@
 # Qubinator-Cli
-NPM command-line client for the Qubinator C# library using Edge.js.
+[NPM](https://www.npmjs.com/package/qubinator-cli) command-line client for the [Qubinator](https://github.com/jean-lourenco/Qubinator) C# library using [Edge.js](https://github.com/tjanczuk/edge).
 
 ```
   $ quber --help;
