@@ -101,7 +101,7 @@ AHNITATAB  A
    AHNITATAB
 ```
 
-### - Full 2D
+### - Full Offsetted Text 
 
 ```
   $ quber BATATINHA --fulltext
