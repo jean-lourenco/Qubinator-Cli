@@ -2,6 +2,11 @@
 [NPM](https://www.npmjs.com/package/qubinator-cli) command-line client for the [Qubinator](https://github.com/jean-lourenco/Qubinator) C# library using [Edge.js](https://github.com/tjanczuk/edge).
 
 ```
+  $ npm install qubinator-cli -g
+```
+
+## Usage
+```
   $ quber --help;
 ```
 ```
