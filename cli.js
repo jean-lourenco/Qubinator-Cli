@@ -1,6 +1,7 @@
+#!/usr/bin/env node
 'use strict';
 
-const meow = require("meow")
+const meow = require("meow");
 const quber = require('./qubinator-methods');
 
 const cli = meow(`
@@ -11,7 +12,7 @@ const cli = meow(`
         --2dsimple,  -s  Simple Cube
         --2dfull,    -f  Full Cube
         --3d,        -d  Full 3D Cube
-        --fulltext, -t  Full Text with Offset
+        --fulltext,  -t  Full Text with Offset
 
     Examples
         $ quber BATATINHA --3d

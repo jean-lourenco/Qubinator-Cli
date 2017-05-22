@@ -1,19 +1,29 @@
 {
   "name": "qubinator-cli",
-  "version": "1.0.0",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "author": "Jean Lourenço",
+  "version": "2.0.0",
+  "main": "cli.js",
   "license": "MIT",
+  "repository": "jean-lourenco/Qubinator-Cli",
+  "author": {
+    "name": "Jean Lourenço",
+    "email": "jeancarlos.bnu@gmail.com",
+    "url": "http://www.jeanlourenco.com"
+  },
   "dependencies": {
+    "edge": "^7.10.1",
     "meow": "^3.7.0"
   },
+  "bin": {
+    "quber": "cli.js"
+  },
   "devDependencies": {},
-  "description": "Command-line version of the C# library Qubinator",
+  "description": "Command-line version of Qubinator library using Edge.js",
   "keywords": [
+    "cli-app",
+    "cli",
+    "bin",
+    "word",
+    "words",
     "string-manipulation"
   ]
 }

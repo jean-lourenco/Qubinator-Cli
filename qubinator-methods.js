@@ -2,27 +2,30 @@
 
 let edge = require('edge');
 
+const path = require('path').join(__dirname, 'Qubinator-Edge.dll')
+const typeName = 'Qubinator_Edge.QubinatorWrapper';
+
 let to2DSimpleFunc = edge.func({
-	assemblyFile: 'Qubinator-Edge.dll',
-	typeName: 'Qubinator_Edge.QubinatorWrapper',
+	assemblyFile: path,
+	typeName: typeName,
 	methodName: 'To2DSimple'
 });
 
 let to2DFullFunc = edge.func({
-	assemblyFile: 'Qubinator-Edge.dll',
-	typeName: 'Qubinator_Edge.QubinatorWrapper',
+	assemblyFile: path,
+	typeName: typeName,
 	methodName: 'To2DFull'
 });
 
 let to3DFunc = edge.func({
-	assemblyFile: 'Qubinator-Edge.dll',
-	typeName: 'Qubinator_Edge.QubinatorWrapper',
+	assemblyFile: path,
+	typeName: typeName,
 	methodName: 'To3D'
 });
 
 let toFullTextOffsetFunc = edge.func({
-	assemblyFile: 'Qubinator-Edge.dll',
-	typeName: 'Qubinator_Edge.QubinatorWrapper',
+	assemblyFile: path,
+	typeName: typeName,
 	methodName: 'ToFullTextOffset'
 });
 
