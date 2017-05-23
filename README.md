@@ -7,7 +7,7 @@
 
 ## Usage
 ```
-  $ quber --help;
+  $ quber --help
 ```
 ```
   Usage
