@@ -41,11 +41,21 @@ const cli = meow(`
 const input = cli.input[0];
 const flags = cli.flags;
 
+if (!input) {
+    console.log("An input should be provided as parameter. See 'quber --help' for examples.");
+    return;
+}
+
+if (input.length < 3) {
+    console.log('The input should have at least 3 characters.');
+    return;
+}
+
 if (flags['2dsimple'])
     quber.to2DSimple(input);
-else if (flags['2dfull'])
+else if (flags['2dfull']) 
     quber.to2DFull(input);
-else if (flags['3d'])
+else if (flags['3d']) 
     quber.to3D(input);
 else if (flags['fulltext'])
     quber.toFullTextOffset(input);
