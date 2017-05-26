@@ -59,7 +59,18 @@ else if (flags['3d'])
     quber.to3D(input);
 else if (flags['fulltext'])
     quber.toFullTextOffset(input);
+else if (objectHasAnyProperty(flags))
+	console.log('The flag provided is invalid.');
 else
     console.log('At least one flag should be provided.');
+
+function objectHasAnyProperty(obj) {
+	for (var prop in obj) {
+		if (obj.hasOwnProperty(prop))
+			return true;
+	}
+	
+	return false;
+}
 
 

@@ -1,6 +1,6 @@
 {
   "name": "qubinator-cli",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "main": "cli.js",
   "license": "MIT",
   "repository": "jean-lourenco/Qubinator-Cli",
