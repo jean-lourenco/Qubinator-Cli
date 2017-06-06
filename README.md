@@ -1,4 +1,23 @@
 # Qubinator-Cli
+```
+QUBINATORCLI
+U\         L\
+B \        C \
+I  \       R  \
+N   \      O   \
+A    QUBINATORCLI
+T    U     A    L
+O    B     N    C
+R    I     I    R
+C    N     B    O
+L    A     U    T
+ILCROTANIBUQ    A
+ \   O      \   N
+  \  R       \  I
+   \ C        \ B
+    \L         \U
+     ILCROTANIBUQ
+```
 [NPM](https://www.npmjs.com/package/qubinator-cli) and [Yarn](https://yarnpkg.com/en/package/qubinator-cli) command-line client for the [Qubinator](https://github.com/jean-lourenco/Qubinator) C# library using [Edge.js](https://github.com/tjanczuk/edge).
 
 ```
